@@ -1,0 +1,21 @@
+RODRIGO: add r3, VINI
+.entry MBAPE
+lea LUKA, r1
+inc r6
+sub r2, r4
+MBAPE: not RONALDO
+.extern RONALDO
+bne END
+BRAHIM: mov *r6, r1
+DIAS: mov r3, *r4
+add r7, *r6
+.entry DIAS
+jsr BRAHIM
+jmp RODRIGO
+END: stop
+RUDIGER: .string "difence"
+dec RUDIGER
+LUKA: .data 10
+.data -88
+VINI: sub #11, r3
+prn MBAPE
